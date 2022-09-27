@@ -8,15 +8,7 @@
     width: 100%;
     height: 800px;
 }
-@media(max-width:375px){
-    .conteiner{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
-}
+
 .main-div {
     width: 320px;
     height: 497px;
@@ -53,4 +45,14 @@
     color: #7D889E;
     margin: 16px 32px 40px 32px;
 
+}
+
+@media(max-width:375px){
+    .conteiner{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
