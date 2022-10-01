@@ -1,12 +1,18 @@
-.conteiner{
+body{
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     background-color: lightgray;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     max-width: 1440px;
     width: 100%;
-    height: 800px;
 }
 
 .main-div {
